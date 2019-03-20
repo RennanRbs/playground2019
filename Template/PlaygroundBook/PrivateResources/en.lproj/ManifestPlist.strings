@@ -1,0 +1,22 @@
+/*
+ See LICENSE folder for this template’s licensing information.
+ 
+ Abstract:
+ Contains English localizations of values in Manifest.plist files in the playground book.
+ */
+
+/* The localized name of the playground book. */
+"PlaygroundBookName" = "Programming is like super power";
+
+/* The localized name of the first chapter in the playground book. */
+"ChapterOneName" = "Programming is like super power";
+
+/* The localized name of the first page in the first chapter in the playground book. */
+"ChapterOnePageOneName" = "Marine ecosystem calls for help.";
+"ChapterOnePageTwoName" = "A developer decide to use your super power.";
+"ChapterOnePageThreeName" = "Save database information.";
+"ChapterOnePageFourName" = "One line code at a time.";
+"ChapterOnePageFiveName" = "Application good methods.";
+"ChapterOnePageSixName" = "A new hope to oceans.";
+"ChapterOnePageSevenName" = "All power you have.";
+"ChapterOnePageEightName" = "About me.";
