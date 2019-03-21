@@ -9,46 +9,122 @@ import UIKit
 
 public class PlaygroundPage1ViewController: UIViewController {
     
-    var oceanImage: [UIImage] = []
+   
     
     lazy var imageColorsImage: UIImageView = {
-        let imageName = "fundoMarinho-0"
+        let imageName = "fundoDoMar"
         let image = UIImage(named: imageName)
         let imageT = UIImageView(image: image!)
         imageT.translatesAutoresizingMaskIntoConstraints = false
-        imageT.layer.cornerRadius = 10
+        imageT.layer.cornerRadius = 1
+        imageT.layer.masksToBounds = true
+        return imageT
+    }()
+    lazy var peixeAzul: UIImageView = {
+        let imageName = "peixeAzul"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        imageT.layer.cornerRadius = 1
+        imageT.layer.masksToBounds = true
+        return imageT
+    }()
+    lazy var peixeAmarelo: UIImageView = {
+        let imageName = "peixeAmarelo"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        imageT.layer.cornerRadius = 1
+        imageT.layer.masksToBounds = true
+        return imageT
+    }()
+    lazy var peixeLaranja: UIImageView = {
+        let imageName = "peixeLaranja"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        imageT.layer.cornerRadius = 1
+        imageT.layer.masksToBounds = true
+        return imageT
+    }()
+    lazy var peixeAzulClaro: UIImageView = {
+        let imageName = "peixeAzulClaro"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        imageT.layer.cornerRadius = 1
+        imageT.layer.masksToBounds = true
+        return imageT
+    }()
+    lazy var saco01: UIImageView = {
+        let imageName = "saco1"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        imageT.layer.cornerRadius = 1
+        imageT.layer.masksToBounds = true
+        return imageT
+    }()
+    lazy var saco02: UIImageView = {
+        let imageName = "saco2"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        imageT.layer.cornerRadius = 1
+        imageT.layer.masksToBounds = true
+        return imageT
+    }()
+    lazy var garrafa: UIImageView = {
+        let imageName = "garrafa"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        imageT.layer.cornerRadius = 1
         imageT.layer.masksToBounds = true
         return imageT
     }()
     
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(imageColorsImage)
+        view.addSubview(peixeAzul)
+        view.addSubview(peixeAzulClaro)
+        view.addSubview(peixeAmarelo)
+        view.addSubview(peixeLaranja)
+        view.addSubview(saco01)
+        view.addSubview(saco02)
+        view.addSubview(garrafa)
+
         setupImage()
-        oceanImage = createImageArray(total: 16, imagePrefix: "fundoMarinho")
-        animate(imageView: imageColorsImage, images: oceanImage)
+        DispatchQueue.main.async {
+            self.animationPeixes()
+        }
+        
+
         
        }
     
-    func createImageArray(total: Int, imagePrefix: String) -> [UIImage] {
-        var imageArray: [UIImage] = []
-        
-        for imageCount in 0..<total {
-            let imageName = "\(imagePrefix)-\(imageCount)"
-            let image = UIImage(named: imageName)!
+    func animationPeixes()  {
+        UIView.animate(withDuration: 1, animations: {
             
-            imageArray.append(image)
+        }) { _ in
+            UIView.animate(withDuration: 1, delay: 0.25, options: [.autoreverse, .repeat], animations: {
+                self.peixeAzul.frame.origin.y -= 30
+                self.peixeAzulClaro.frame.origin.x -= 20
+                self.peixeLaranja.frame.origin.y -= 40
+                self.peixeAmarelo.frame.origin.x += 60
+                self.saco02.frame.origin.x += 10
+                self.saco01.frame.origin.y += 10
+                self.garrafa.frame.origin.y -= 10
+                
+            })
         }
-        return imageArray
     }
     
     
-    func animate(imageView: UIImageView, images: [UIImage])  {
-        imageView.animationImages = images
-        imageView.animationDuration = 2.0
-        imageView.animationRepeatCount = 12
-        imageView.startAnimating()
-    }
+    
+  
     
     
     
@@ -58,6 +134,21 @@ public class PlaygroundPage1ViewController: UIViewController {
         imageColorsImage.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         imageColorsImage.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         imageColorsImage.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        peixeAzul.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 200).isActive = true
+        peixeAzul.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 200).isActive = true
+        peixeAzulClaro.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -200).isActive = true
+        peixeAzulClaro.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -200).isActive = true
+        peixeAmarelo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -150).isActive = true
+        peixeAmarelo.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 260).isActive = true
+        peixeLaranja.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 230).isActive = true
+        peixeLaranja.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -270).isActive = true
+        saco02.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 10).isActive = true
+        saco02.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -270).isActive = true
+        saco01.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 230).isActive = true
+        saco01.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -10).isActive = true
+        garrafa.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 10).isActive = true
+        garrafa.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 350).isActive = true
+        
     }
     
   

@@ -21,62 +21,51 @@
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
 		E85B3839224280E3006A4CF1 /* PlaygroundPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B382D224280E2006A4CF1 /* PlaygroundPage2ViewController.swift */; };
-		E85B383A224280E3006A4CF1 /* MyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B382E224280E2006A4CF1 /* MyScene.swift */; };
 		E85B383D224280E3006A4CF1 /* PlaygroundPage5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3831224280E2006A4CF1 /* PlaygroundPage5ViewController.swift */; };
 		E85B383E224280E3006A4CF1 /* PlaygroundPage6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3832224280E2006A4CF1 /* PlaygroundPage6ViewController.swift */; };
-		E85B383F224280E3006A4CF1 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E85B3833224280E3006A4CF1 /* MyScene.sks */; };
-		E85B3840224280E3006A4CF1 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E85B3833224280E3006A4CF1 /* MyScene.sks */; };
 		E85B3841224280E3006A4CF1 /* PlaygroundPage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3834224280E3006A4CF1 /* PlaygroundPage4ViewController.swift */; };
 		E85B3842224280E3006A4CF1 /* PlaygroundPage7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3835224280E3006A4CF1 /* PlaygroundPage7ViewController.swift */; };
 		E85B3843224280E3006A4CF1 /* PlaygroundPage8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3836224280E3006A4CF1 /* PlaygroundPage8ViewController.swift */; };
 		E85B3844224280E3006A4CF1 /* PlaygroundPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3837224280E3006A4CF1 /* PlaygroundPage1ViewController.swift */; };
 		E85B3845224280E3006A4CF1 /* PlaygroundPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3838224280E3006A4CF1 /* PlaygroundPage3ViewController.swift */; };
-		E85B385E224281C3006A4CF1 /* fundoMarinho-4.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3847224281C1006A4CF1 /* fundoMarinho-4.png */; };
-		E85B385F224281C3006A4CF1 /* fundoMarinho-4.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3847224281C1006A4CF1 /* fundoMarinho-4.png */; };
-		E85B3860224281C3006A4CF1 /* fundoMarinho-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3848224281C1006A4CF1 /* fundoMarinho-2.png */; };
-		E85B3861224281C3006A4CF1 /* fundoMarinho-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3848224281C1006A4CF1 /* fundoMarinho-2.png */; };
-		E85B3862224281C3006A4CF1 /* fundoMarinho-13.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3849224281C1006A4CF1 /* fundoMarinho-13.png */; };
-		E85B3863224281C3006A4CF1 /* fundoMarinho-13.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3849224281C1006A4CF1 /* fundoMarinho-13.png */; };
 		E85B3864224281C3006A4CF1 /* pesquisa01.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384A224281C1006A4CF1 /* pesquisa01.png */; };
 		E85B3865224281C3006A4CF1 /* pesquisa01.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384A224281C1006A4CF1 /* pesquisa01.png */; };
 		E85B3866224281C3006A4CF1 /* db3uzt12uemz.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384B224281C1006A4CF1 /* db3uzt12uemz.png */; };
 		E85B3867224281C3006A4CF1 /* db3uzt12uemz.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384B224281C1006A4CF1 /* db3uzt12uemz.png */; };
-		E85B3868224281C3006A4CF1 /* fundoMarinho-11.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384C224281C1006A4CF1 /* fundoMarinho-11.png */; };
-		E85B3869224281C3006A4CF1 /* fundoMarinho-11.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384C224281C1006A4CF1 /* fundoMarinho-11.png */; };
-		E85B386A224281C3006A4CF1 /* pesquisa04.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384D224281C1006A4CF1 /* pesquisa04.png */; };
-		E85B386B224281C3006A4CF1 /* pesquisa04.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384D224281C1006A4CF1 /* pesquisa04.png */; };
 		E85B386C224281C3006A4CF1 /* macBranco.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384E224281C1006A4CF1 /* macBranco.png */; };
 		E85B386D224281C3006A4CF1 /* macBranco.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384E224281C1006A4CF1 /* macBranco.png */; };
 		E85B386E224281C3006A4CF1 /* pesquisa02.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384F224281C1006A4CF1 /* pesquisa02.png */; };
 		E85B386F224281C3006A4CF1 /* pesquisa02.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B384F224281C1006A4CF1 /* pesquisa02.png */; };
-		E85B3870224281C3006A4CF1 /* fundoMarinho-14.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3850224281C1006A4CF1 /* fundoMarinho-14.png */; };
-		E85B3871224281C3006A4CF1 /* fundoMarinho-14.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3850224281C1006A4CF1 /* fundoMarinho-14.png */; };
-		E85B3872224281C3006A4CF1 /* fundoMarinho-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3851224281C1006A4CF1 /* fundoMarinho-1.png */; };
-		E85B3873224281C3006A4CF1 /* fundoMarinho-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3851224281C1006A4CF1 /* fundoMarinho-1.png */; };
-		E85B3874224281C3006A4CF1 /* fundoMarinho-5.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3852224281C2006A4CF1 /* fundoMarinho-5.png */; };
-		E85B3875224281C3006A4CF1 /* fundoMarinho-5.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3852224281C2006A4CF1 /* fundoMarinho-5.png */; };
-		E85B3876224281C3006A4CF1 /* deskMacbook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E85B3853224281C2006A4CF1 /* deskMacbook.jpg */; };
-		E85B3877224281C3006A4CF1 /* deskMacbook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E85B3853224281C2006A4CF1 /* deskMacbook.jpg */; };
-		E85B3878224281C3006A4CF1 /* fundoMarinho-10.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3854224281C2006A4CF1 /* fundoMarinho-10.png */; };
-		E85B3879224281C3006A4CF1 /* fundoMarinho-10.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3854224281C2006A4CF1 /* fundoMarinho-10.png */; };
-		E85B387A224281C3006A4CF1 /* fundoMarinho-12.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3855224281C2006A4CF1 /* fundoMarinho-12.png */; };
-		E85B387B224281C3006A4CF1 /* fundoMarinho-12.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3855224281C2006A4CF1 /* fundoMarinho-12.png */; };
-		E85B387C224281C3006A4CF1 /* fundoMarinho-0.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3856224281C2006A4CF1 /* fundoMarinho-0.png */; };
-		E85B387D224281C3006A4CF1 /* fundoMarinho-0.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3856224281C2006A4CF1 /* fundoMarinho-0.png */; };
 		E85B387E224281C3006A4CF1 /* pesquisa03.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3857224281C2006A4CF1 /* pesquisa03.png */; };
 		E85B387F224281C3006A4CF1 /* pesquisa03.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3857224281C2006A4CF1 /* pesquisa03.png */; };
-		E85B3880224281C3006A4CF1 /* fundoMarinho-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3858224281C2006A4CF1 /* fundoMarinho-7.png */; };
-		E85B3881224281C3006A4CF1 /* fundoMarinho-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3858224281C2006A4CF1 /* fundoMarinho-7.png */; };
-		E85B3882224281C3006A4CF1 /* fundoMarinho-8.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3859224281C2006A4CF1 /* fundoMarinho-8.png */; };
-		E85B3883224281C3006A4CF1 /* fundoMarinho-8.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B3859224281C2006A4CF1 /* fundoMarinho-8.png */; };
-		E85B3884224281C3006A4CF1 /* fundoMarinho-9.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B385A224281C3006A4CF1 /* fundoMarinho-9.png */; };
-		E85B3885224281C3006A4CF1 /* fundoMarinho-9.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B385A224281C3006A4CF1 /* fundoMarinho-9.png */; };
-		E85B3886224281C3006A4CF1 /* fundoMarinho-6.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B385B224281C3006A4CF1 /* fundoMarinho-6.png */; };
-		E85B3887224281C3006A4CF1 /* fundoMarinho-6.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B385B224281C3006A4CF1 /* fundoMarinho-6.png */; };
-		E85B3888224281C3006A4CF1 /* fundoMarinho-15.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B385C224281C3006A4CF1 /* fundoMarinho-15.png */; };
-		E85B3889224281C3006A4CF1 /* fundoMarinho-15.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B385C224281C3006A4CF1 /* fundoMarinho-15.png */; };
-		E85B388A224281C3006A4CF1 /* fundoMarinho-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B385D224281C3006A4CF1 /* fundoMarinho-3.png */; };
-		E85B388B224281C3006A4CF1 /* fundoMarinho-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E85B385D224281C3006A4CF1 /* fundoMarinho-3.png */; };
+		E85C573A2242A782008FB54E /* pesquisa04.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57392242A782008FB54E /* pesquisa04.png */; };
+		E85C573B2242A782008FB54E /* pesquisa04.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57392242A782008FB54E /* pesquisa04.png */; };
+		E85C57412242F46E008FB54E /* xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57402242F46E008FB54E /* xcode.png */; };
+		E85C57422242F46E008FB54E /* xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57402242F46E008FB54E /* xcode.png */; };
+		E85C57432242F5A9008FB54E /* PlaygroundPage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3834224280E3006A4CF1 /* PlaygroundPage4ViewController.swift */; };
+		E85C57452242F8F1008FB54E /* xcodeVazio.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57442242F8F0008FB54E /* xcodeVazio.png */; };
+		E85C57462242F8F1008FB54E /* xcodeVazio.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57442242F8F0008FB54E /* xcodeVazio.png */; };
+		E85C57482242FA36008FB54E /* xcodeInicio.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57472242FA36008FB54E /* xcodeInicio.png */; };
+		E85C57492242FA36008FB54E /* xcodeInicio.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57472242FA36008FB54E /* xcodeInicio.png */; };
+		E85C574B2243282E008FB54E /* fundoDoMar.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C574A2243282E008FB54E /* fundoDoMar.png */; };
+		E85C574C2243282E008FB54E /* fundoDoMar.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C574A2243282E008FB54E /* fundoDoMar.png */; };
+		E85C574D2243288F008FB54E /* PlaygroundPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3837224280E3006A4CF1 /* PlaygroundPage1ViewController.swift */; };
+		E85C574F2243290A008FB54E /* peixeAzul.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C574E2243290A008FB54E /* peixeAzul.png */; };
+		E85C57502243290A008FB54E /* peixeAzul.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C574E2243290A008FB54E /* peixeAzul.png */; };
+		E85C5755224329F5008FB54E /* peixeAzul.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C5751224329F4008FB54E /* peixeAzul.png */; };
+		E85C5756224329F5008FB54E /* peixeAzul.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C5751224329F4008FB54E /* peixeAzul.png */; };
+		E85C5757224329F5008FB54E /* peixeAmarelo.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C5752224329F4008FB54E /* peixeAmarelo.png */; };
+		E85C5758224329F5008FB54E /* peixeAmarelo.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C5752224329F4008FB54E /* peixeAmarelo.png */; };
+		E85C5759224329F5008FB54E /* peixeAzulClaro.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C5753224329F5008FB54E /* peixeAzulClaro.png */; };
+		E85C575A224329F5008FB54E /* peixeAzulClaro.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C5753224329F5008FB54E /* peixeAzulClaro.png */; };
+		E85C575B224329F5008FB54E /* peixeLaranja.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C5754224329F5008FB54E /* peixeLaranja.png */; };
+		E85C575C224329F5008FB54E /* peixeLaranja.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C5754224329F5008FB54E /* peixeLaranja.png */; };
+		E85C575F22433001008FB54E /* saco2.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C575D22433001008FB54E /* saco2.png */; };
+		E85C576022433001008FB54E /* saco2.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C575D22433001008FB54E /* saco2.png */; };
+		E85C576122433001008FB54E /* saco1.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C575E22433001008FB54E /* saco1.png */; };
+		E85C576222433001008FB54E /* saco1.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C575E22433001008FB54E /* saco1.png */; };
+		E85C57642243314C008FB54E /* garrafa.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57632243314C008FB54E /* garrafa.png */; };
+		E85C57652243314C008FB54E /* garrafa.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57632243314C008FB54E /* garrafa.png */; };
 		E85E2EE022428790000E4D77 /* PlaygroundPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3838224280E3006A4CF1 /* PlaygroundPage3ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -171,38 +160,31 @@
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 		E85B382C224280E2006A4CF1 /* PlaygroundBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaygroundBook-Bridging-Header.h"; sourceTree = "<group>"; };
 		E85B382D224280E2006A4CF1 /* PlaygroundPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage2ViewController.swift; sourceTree = "<group>"; };
-		E85B382E224280E2006A4CF1 /* MyScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScene.swift; sourceTree = "<group>"; };
 		E85B3831224280E2006A4CF1 /* PlaygroundPage5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage5ViewController.swift; sourceTree = "<group>"; };
 		E85B3832224280E2006A4CF1 /* PlaygroundPage6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage6ViewController.swift; sourceTree = "<group>"; };
-		E85B3833224280E3006A4CF1 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		E85B3834224280E3006A4CF1 /* PlaygroundPage4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage4ViewController.swift; sourceTree = "<group>"; };
 		E85B3835224280E3006A4CF1 /* PlaygroundPage7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage7ViewController.swift; sourceTree = "<group>"; };
 		E85B3836224280E3006A4CF1 /* PlaygroundPage8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage8ViewController.swift; sourceTree = "<group>"; };
 		E85B3837224280E3006A4CF1 /* PlaygroundPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage1ViewController.swift; sourceTree = "<group>"; };
 		E85B3838224280E3006A4CF1 /* PlaygroundPage3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage3ViewController.swift; sourceTree = "<group>"; };
-		E85B3847224281C1006A4CF1 /* fundoMarinho-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-4.png"; sourceTree = "<group>"; };
-		E85B3848224281C1006A4CF1 /* fundoMarinho-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-2.png"; sourceTree = "<group>"; };
-		E85B3849224281C1006A4CF1 /* fundoMarinho-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-13.png"; sourceTree = "<group>"; };
 		E85B384A224281C1006A4CF1 /* pesquisa01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pesquisa01.png; sourceTree = "<group>"; };
 		E85B384B224281C1006A4CF1 /* db3uzt12uemz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db3uzt12uemz.png; sourceTree = "<group>"; };
-		E85B384C224281C1006A4CF1 /* fundoMarinho-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-11.png"; sourceTree = "<group>"; };
-		E85B384D224281C1006A4CF1 /* pesquisa04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pesquisa04.png; sourceTree = "<group>"; };
 		E85B384E224281C1006A4CF1 /* macBranco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macBranco.png; sourceTree = "<group>"; };
 		E85B384F224281C1006A4CF1 /* pesquisa02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pesquisa02.png; sourceTree = "<group>"; };
-		E85B3850224281C1006A4CF1 /* fundoMarinho-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-14.png"; sourceTree = "<group>"; };
-		E85B3851224281C1006A4CF1 /* fundoMarinho-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-1.png"; sourceTree = "<group>"; };
-		E85B3852224281C2006A4CF1 /* fundoMarinho-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-5.png"; sourceTree = "<group>"; };
-		E85B3853224281C2006A4CF1 /* deskMacbook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deskMacbook.jpg; sourceTree = "<group>"; };
-		E85B3854224281C2006A4CF1 /* fundoMarinho-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-10.png"; sourceTree = "<group>"; };
-		E85B3855224281C2006A4CF1 /* fundoMarinho-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-12.png"; sourceTree = "<group>"; };
-		E85B3856224281C2006A4CF1 /* fundoMarinho-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-0.png"; sourceTree = "<group>"; };
 		E85B3857224281C2006A4CF1 /* pesquisa03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pesquisa03.png; sourceTree = "<group>"; };
-		E85B3858224281C2006A4CF1 /* fundoMarinho-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-7.png"; sourceTree = "<group>"; };
-		E85B3859224281C2006A4CF1 /* fundoMarinho-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-8.png"; sourceTree = "<group>"; };
-		E85B385A224281C3006A4CF1 /* fundoMarinho-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-9.png"; sourceTree = "<group>"; };
-		E85B385B224281C3006A4CF1 /* fundoMarinho-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-6.png"; sourceTree = "<group>"; };
-		E85B385C224281C3006A4CF1 /* fundoMarinho-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-15.png"; sourceTree = "<group>"; };
-		E85B385D224281C3006A4CF1 /* fundoMarinho-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fundoMarinho-3.png"; sourceTree = "<group>"; };
+		E85C57392242A782008FB54E /* pesquisa04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pesquisa04.png; sourceTree = "<group>"; };
+		E85C57402242F46E008FB54E /* xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode.png; sourceTree = "<group>"; };
+		E85C57442242F8F0008FB54E /* xcodeVazio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcodeVazio.png; sourceTree = "<group>"; };
+		E85C57472242FA36008FB54E /* xcodeInicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcodeInicio.png; sourceTree = "<group>"; };
+		E85C574A2243282E008FB54E /* fundoDoMar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundoDoMar.png; sourceTree = "<group>"; };
+		E85C574E2243290A008FB54E /* peixeAzul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixeAzul.png; sourceTree = "<group>"; };
+		E85C5751224329F4008FB54E /* peixeAzul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = peixeAzul.png; path = ../../../../peixeAzul.png; sourceTree = "<group>"; };
+		E85C5752224329F4008FB54E /* peixeAmarelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixeAmarelo.png; sourceTree = "<group>"; };
+		E85C5753224329F5008FB54E /* peixeAzulClaro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixeAzulClaro.png; sourceTree = "<group>"; };
+		E85C5754224329F5008FB54E /* peixeLaranja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixeLaranja.png; sourceTree = "<group>"; };
+		E85C575D22433001008FB54E /* saco2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saco2.png; sourceTree = "<group>"; };
+		E85C575E22433001008FB54E /* saco1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saco1.png; sourceTree = "<group>"; };
+		E85C57632243314C008FB54E /* garrafa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garrafa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,8 +325,6 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E85B3833224280E3006A4CF1 /* MyScene.sks */,
-				E85B382E224280E2006A4CF1 /* MyScene.swift */,
 				E85B3837224280E3006A4CF1 /* PlaygroundPage1ViewController.swift */,
 				E85B382D224280E2006A4CF1 /* PlaygroundPage2ViewController.swift */,
 				E85B3838224280E3006A4CF1 /* PlaygroundPage3ViewController.swift */,
@@ -372,28 +352,23 @@
 			isa = PBXGroup;
 			children = (
 				E85B384B224281C1006A4CF1 /* db3uzt12uemz.png */,
-				E85B3853224281C2006A4CF1 /* deskMacbook.jpg */,
-				E85B3856224281C2006A4CF1 /* fundoMarinho-0.png */,
-				E85B3851224281C1006A4CF1 /* fundoMarinho-1.png */,
-				E85B3848224281C1006A4CF1 /* fundoMarinho-2.png */,
-				E85B385D224281C3006A4CF1 /* fundoMarinho-3.png */,
-				E85B3847224281C1006A4CF1 /* fundoMarinho-4.png */,
-				E85B3852224281C2006A4CF1 /* fundoMarinho-5.png */,
-				E85B385B224281C3006A4CF1 /* fundoMarinho-6.png */,
-				E85B3858224281C2006A4CF1 /* fundoMarinho-7.png */,
-				E85B3859224281C2006A4CF1 /* fundoMarinho-8.png */,
-				E85B385A224281C3006A4CF1 /* fundoMarinho-9.png */,
-				E85B3854224281C2006A4CF1 /* fundoMarinho-10.png */,
-				E85B384C224281C1006A4CF1 /* fundoMarinho-11.png */,
-				E85B3855224281C2006A4CF1 /* fundoMarinho-12.png */,
-				E85B3849224281C1006A4CF1 /* fundoMarinho-13.png */,
-				E85B3850224281C1006A4CF1 /* fundoMarinho-14.png */,
-				E85B385C224281C3006A4CF1 /* fundoMarinho-15.png */,
+				E85C5752224329F4008FB54E /* peixeAmarelo.png */,
+				E85C5751224329F4008FB54E /* peixeAzul.png */,
+				E85C5753224329F5008FB54E /* peixeAzulClaro.png */,
+				E85C57632243314C008FB54E /* garrafa.png */,
+				E85C5754224329F5008FB54E /* peixeLaranja.png */,
+				E85C574E2243290A008FB54E /* peixeAzul.png */,
+				E85C574A2243282E008FB54E /* fundoDoMar.png */,
+				E85C57402242F46E008FB54E /* xcode.png */,
+				E85C57472242FA36008FB54E /* xcodeInicio.png */,
+				E85C575E22433001008FB54E /* saco1.png */,
+				E85C575D22433001008FB54E /* saco2.png */,
+				E85C57442242F8F0008FB54E /* xcodeVazio.png */,
 				E85B384E224281C1006A4CF1 /* macBranco.png */,
 				E85B384A224281C1006A4CF1 /* pesquisa01.png */,
+				E85C57392242A782008FB54E /* pesquisa04.png */,
 				E85B384F224281C1006A4CF1 /* pesquisa02.png */,
 				E85B3857224281C2006A4CF1 /* pesquisa03.png */,
-				E85B384D224281C1006A4CF1 /* pesquisa04.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -504,32 +479,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85B387C224281C3006A4CF1 /* fundoMarinho-0.png in Resources */,
-				E85B388A224281C3006A4CF1 /* fundoMarinho-3.png in Resources */,
-				E85B3878224281C3006A4CF1 /* fundoMarinho-10.png in Resources */,
-				E85B3860224281C3006A4CF1 /* fundoMarinho-2.png in Resources */,
-				E85B3888224281C3006A4CF1 /* fundoMarinho-15.png in Resources */,
-				E85B387A224281C3006A4CF1 /* fundoMarinho-12.png in Resources */,
-				E85B3876224281C3006A4CF1 /* deskMacbook.jpg in Resources */,
+				E85C5755224329F5008FB54E /* peixeAzul.png in Resources */,
+				E85C57452242F8F1008FB54E /* xcodeVazio.png in Resources */,
 				E85B386C224281C3006A4CF1 /* macBranco.png in Resources */,
-				E85B385E224281C3006A4CF1 /* fundoMarinho-4.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
+				E85C576122433001008FB54E /* saco1.png in Resources */,
 				E85B3866224281C3006A4CF1 /* db3uzt12uemz.png in Resources */,
-				E85B3874224281C3006A4CF1 /* fundoMarinho-5.png in Resources */,
-				E85B3886224281C3006A4CF1 /* fundoMarinho-6.png in Resources */,
-				E85B3872224281C3006A4CF1 /* fundoMarinho-1.png in Resources */,
+				E85C573A2242A782008FB54E /* pesquisa04.png in Resources */,
+				E85C5759224329F5008FB54E /* peixeAzulClaro.png in Resources */,
+				E85C574B2243282E008FB54E /* fundoDoMar.png in Resources */,
+				E85C575F22433001008FB54E /* saco2.png in Resources */,
+				E85C574F2243290A008FB54E /* peixeAzul.png in Resources */,
 				E85B387E224281C3006A4CF1 /* pesquisa03.png in Resources */,
-				E85B383F224280E3006A4CF1 /* MyScene.sks in Resources */,
-				E85B3870224281C3006A4CF1 /* fundoMarinho-14.png in Resources */,
+				E85C57482242FA36008FB54E /* xcodeInicio.png in Resources */,
 				E85B386E224281C3006A4CF1 /* pesquisa02.png in Resources */,
-				E85B3880224281C3006A4CF1 /* fundoMarinho-7.png in Resources */,
+				E85C57642243314C008FB54E /* garrafa.png in Resources */,
 				E85B3864224281C3006A4CF1 /* pesquisa01.png in Resources */,
-				E85B386A224281C3006A4CF1 /* pesquisa04.png in Resources */,
+				E85C5757224329F5008FB54E /* peixeAmarelo.png in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
-				E85B3862224281C3006A4CF1 /* fundoMarinho-13.png in Resources */,
-				E85B3882224281C3006A4CF1 /* fundoMarinho-8.png in Resources */,
-				E85B3884224281C3006A4CF1 /* fundoMarinho-9.png in Resources */,
-				E85B3868224281C3006A4CF1 /* fundoMarinho-11.png in Resources */,
+				E85C575B224329F5008FB54E /* peixeLaranja.png in Resources */,
+				E85C57412242F46E008FB54E /* xcode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,31 +506,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85B3863224281C3006A4CF1 /* fundoMarinho-13.png in Resources */,
-				E85B3873224281C3006A4CF1 /* fundoMarinho-1.png in Resources */,
+				E85C573B2242A782008FB54E /* pesquisa04.png in Resources */,
 				E85B3867224281C3006A4CF1 /* db3uzt12uemz.png in Resources */,
-				E85B3877224281C3006A4CF1 /* deskMacbook.jpg in Resources */,
-				E85B3871224281C3006A4CF1 /* fundoMarinho-14.png in Resources */,
-				E85B3883224281C3006A4CF1 /* fundoMarinho-8.png in Resources */,
 				E85B386D224281C3006A4CF1 /* macBranco.png in Resources */,
 				E85B386F224281C3006A4CF1 /* pesquisa02.png in Resources */,
 				E85B3865224281C3006A4CF1 /* pesquisa01.png in Resources */,
-				E85B3875224281C3006A4CF1 /* fundoMarinho-5.png in Resources */,
-				E85B388B224281C3006A4CF1 /* fundoMarinho-3.png in Resources */,
-				E85B3887224281C3006A4CF1 /* fundoMarinho-6.png in Resources */,
-				E85B3889224281C3006A4CF1 /* fundoMarinho-15.png in Resources */,
-				E85B385F224281C3006A4CF1 /* fundoMarinho-4.png in Resources */,
-				E85B3840224280E3006A4CF1 /* MyScene.sks in Resources */,
-				E85B3861224281C3006A4CF1 /* fundoMarinho-2.png in Resources */,
+				E85C5758224329F5008FB54E /* peixeAmarelo.png in Resources */,
+				E85C57492242FA36008FB54E /* xcodeInicio.png in Resources */,
+				E85C5756224329F5008FB54E /* peixeAzul.png in Resources */,
 				E85B387F224281C3006A4CF1 /* pesquisa03.png in Resources */,
 				5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */,
-				E85B386B224281C3006A4CF1 /* pesquisa04.png in Resources */,
-				E85B3881224281C3006A4CF1 /* fundoMarinho-7.png in Resources */,
-				E85B3879224281C3006A4CF1 /* fundoMarinho-10.png in Resources */,
-				E85B3869224281C3006A4CF1 /* fundoMarinho-11.png in Resources */,
-				E85B387D224281C3006A4CF1 /* fundoMarinho-0.png in Resources */,
-				E85B387B224281C3006A4CF1 /* fundoMarinho-12.png in Resources */,
-				E85B3885224281C3006A4CF1 /* fundoMarinho-9.png in Resources */,
+				E85C574C2243282E008FB54E /* fundoDoMar.png in Resources */,
+				E85C575C224329F5008FB54E /* peixeLaranja.png in Resources */,
+				E85C576022433001008FB54E /* saco2.png in Resources */,
+				E85C57462242F8F1008FB54E /* xcodeVazio.png in Resources */,
+				E85C575A224329F5008FB54E /* peixeAzulClaro.png in Resources */,
+				E85C57422242F46E008FB54E /* xcode.png in Resources */,
+				E85C57502243290A008FB54E /* peixeAzul.png in Resources */,
+				E85C576222433001008FB54E /* saco1.png in Resources */,
+				E85C57652243314C008FB54E /* garrafa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,7 +563,6 @@
 				E85B383D224280E3006A4CF1 /* PlaygroundPage5ViewController.swift in Sources */,
 				E85B3842224280E3006A4CF1 /* PlaygroundPage7ViewController.swift in Sources */,
 				E85B3845224280E3006A4CF1 /* PlaygroundPage3ViewController.swift in Sources */,
-				E85B383A224280E3006A4CF1 /* MyScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,9 +570,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85C574D2243288F008FB54E /* PlaygroundPage1ViewController.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				E85E2EE022428790000E4D77 /* PlaygroundPage3ViewController.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				E85C57432242F5A9008FB54E /* PlaygroundPage4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

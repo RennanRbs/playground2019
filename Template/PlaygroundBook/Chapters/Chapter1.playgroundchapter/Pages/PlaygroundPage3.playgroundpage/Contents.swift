@@ -6,4 +6,4 @@
 //  The Swift file containing the source code edited by the user of this playground book.
 //
 //#-end-hidden-code
-let str = "Hello, Rennan3"
+let str = "Hello, Rennan33"
