@@ -101,9 +101,7 @@ public class PlaygroundPage1ViewController: UIViewController {
             self.animationPeixes()
         }
         
-
-        
-       }
+    }
     
     func animationPeixes()  {
         UIView.animate(withDuration: 1, animations: {
@@ -112,11 +110,11 @@ public class PlaygroundPage1ViewController: UIViewController {
             UIView.animate(withDuration: 1, delay: 0.25, options: [.autoreverse, .repeat], animations: {
                 self.peixeAzul.frame.origin.y -= 30
                 self.peixeAzulClaro.frame.origin.x -= 20
-                self.peixeLaranja.frame.origin.y -= 40
-                self.peixeAmarelo.frame.origin.x += 60
-                self.saco02.frame.origin.x += 10
+                self.peixeLaranja.frame.origin.y += 40
+                self.peixeAmarelo.frame.origin.x += 5
+                self.saco02.frame.origin.y += 10
                 self.saco01.frame.origin.y += 10
-                self.garrafa.frame.origin.y -= 10
+                self.garrafa.frame.origin.y -= 8
                 
             })
         }
@@ -134,20 +132,20 @@ public class PlaygroundPage1ViewController: UIViewController {
         imageColorsImage.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         imageColorsImage.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         imageColorsImage.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        peixeAzul.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 200).isActive = true
-        peixeAzul.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 200).isActive = true
-        peixeAzulClaro.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -200).isActive = true
-        peixeAzulClaro.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -200).isActive = true
-        peixeAmarelo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -150).isActive = true
-        peixeAmarelo.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 260).isActive = true
-        peixeLaranja.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 230).isActive = true
-        peixeLaranja.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -270).isActive = true
-        saco02.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 10).isActive = true
-        saco02.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -270).isActive = true
-        saco01.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 230).isActive = true
-        saco01.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -10).isActive = true
-        garrafa.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 10).isActive = true
-        garrafa.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 350).isActive = true
+        peixeAzul.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 30).isActive = true
+        peixeAzul.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 30).isActive = true
+        peixeAzulClaro.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -150).isActive = true
+        peixeAzulClaro.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -150).isActive = true
+        peixeAmarelo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -140).isActive = true
+        peixeAmarelo.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 140).isActive = true
+        peixeLaranja.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 180).isActive = true
+        peixeLaranja.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -90).isActive = true
+        saco02.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -70).isActive = true
+        saco02.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 190).isActive = true
+        saco01.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 100).isActive = true
+        saco01.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -140).isActive = true
+        garrafa.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 100).isActive = true
+        garrafa.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 100).isActive = true
         
     }
     

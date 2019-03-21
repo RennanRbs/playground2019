@@ -8,11 +8,133 @@
 import UIKit
 
 public class PlaygroundPage5ViewController: UIViewController {
+    
+    lazy var imagemPrancheta: UIImageView = {
+        let imageName = "prancheta"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+    lazy var imagemMark1: UIImageView = {
+        let imageName = "mark"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+    lazy var imagemMark2: UIImageView = {
+        let imageName = "mark"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+    lazy var imagemMark3: UIImageView = {
+        let imageName = "mark"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+    lazy var imagemMark4: UIImageView = {
+        let imageName = "mark"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+    lazy var imagemMarkX1: UIImageView = {
+        let imageName = "markX"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+    lazy var imagemMarkX2: UIImageView = {
+        let imageName = "markX"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+
+    lazy var imagemMarkX3: UIImageView = {
+        let imageName = "markX"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+
+    lazy var imagemMarkX4: UIImageView = {
+        let imageName = "markX"
+        let image = UIImage(named: imageName)
+        let imageT = UIImageView(image: image!)
+        imageT.isUserInteractionEnabled = true
+        imageT.translatesAutoresizingMaskIntoConstraints = false
+        return imageT
+    }()
+
 
     override public func viewDidLoad() {
         super.viewDidLoad()
+        let tapGestureRecognizer1 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture1))
+        let tapGestureRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture2))
+        let tapGestureRecognizer3 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture3))
+        let tapGestureRecognizer4 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture4))
 
-        // Do any additional setup after loading the view.
+        view.addSubview(imagemPrancheta)
+        view.addSubview(imagemMark1)
+        imagemMark1.addGestureRecognizer(tapGestureRecognizer1)
+        view.addSubview(imagemMark2)
+        imagemMark2.addGestureRecognizer(tapGestureRecognizer2)
+        view.addSubview(imagemMark3)
+        imagemMark3.addGestureRecognizer(tapGestureRecognizer3)
+        view.addSubview(imagemMark4)
+        imagemMark4.addGestureRecognizer(tapGestureRecognizer4)
+
+        constranits()
+    }
+    @objc func handleTapGesture1(sender:UITapGestureRecognizer){
+        imagemMark1.addSubview(imagemMarkX1)
+    }
+    @objc func handleTapGesture2(sender:UITapGestureRecognizer){
+        imagemMark2.addSubview(imagemMarkX2)
+        
+    }
+    @objc func handleTapGesture3(sender:UITapGestureRecognizer){
+        imagemMark3.addSubview(imagemMarkX3)
+        
+    }
+    @objc func handleTapGesture4(sender:UITapGestureRecognizer){
+        imagemMark4.addSubview(imagemMarkX4)
+        
+    }
+    
+    func constranits()  {
+        imagemPrancheta.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 150).isActive = true
+        imagemPrancheta.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        imagemPrancheta.widthAnchor.constraint(equalToConstant: 859).isActive = true
+        imagemPrancheta.heightAnchor.constraint(equalToConstant: 919).isActive = true
+        
+        imagemMark1.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 40).isActive = true
+        imagemMark1.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -118).isActive = true
+        imagemMark2.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -35).isActive = true
+        imagemMark2.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -118).isActive = true
+        imagemMark3.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -110).isActive = true
+        imagemMark3.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -118).isActive = true
+        imagemMark4.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -185).isActive = true
+        imagemMark4.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -118).isActive = true
+        
     }
     
 
