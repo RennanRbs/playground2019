@@ -8,18 +8,18 @@
  ## the surveys generate answers.
  
  - Important:
- Aqui nos vamos ajudar a nossa Developer, Vamos ajudar a organizar as informações em um documento para organizar as ideias.
+ Here we are going to help our Developer, lets organize the information in a document to organize the ideas.
  
- A primeira coisa que ela fez foi realizar pesquisas sobre o ecossistema marinho naquela região.
- Ela encontrou que os plásticos têm alto índice de  absorção de poluentes e toxidade, e podem sofrer alteração com a exposição aos raios ultra-violeta e a água salgada, juntando-se ao plâncton.
- Logo, um peixe, ou qualquer tipo de animal marinho que se alimente desses materiais, corre o risco de contaminação.
- E as pessoas que se alimentarem desses peixes também se contaminarão. Além da poluição visual, o lixo ocasiona a destruição de corais e algas da Costa Marinha, fazendo com que muitos animais procurem um novo lar, causando também a diminuição da fauna da região.
- Ela decidiu reunir todas essas informações e repassar para as pessoas, mas para isso ela precisa de sua ajuda. Dê tap nos itens ao redor do Mac para ajudar a organizar.
+ The first thing she did was made a research on the marine ecosystem in that region.
+ She found that plastics have a high rate of absorption of pollutants and toxicity, and may be altered by exposure to ultra violet rays and salt water, and joining the plankton.
+ Fish, or any type of marine animal that feeds on these materials, got the risk of contamination.
+ People who eat these fish will also become risk of contamination. Beyond visual pollution, the garbage causes the destruction of corals and algae from the Costa Marinha, causing the decrease of fauna of the region
+ She decided to gather all this information pass on to people, but for this she needs your help. Tap the items around the Mac to help organize them.
  
- # Pesquisa:
- * Gráfico do ecossitema Marinho.
- * Pesquisa sobre os danos causado nos peixes.
- * Imagens dos lixos jogados.
+ # Search:
+ * Marine ecosystem chart.
+ * Presearch the damage caused in fish.
+ * Garbage images discarded
  * Pesquisa de reclamação das pessoas da região.
  
 

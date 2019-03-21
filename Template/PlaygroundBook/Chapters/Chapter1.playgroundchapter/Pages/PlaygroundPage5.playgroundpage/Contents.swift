@@ -5,22 +5,21 @@
  
  
  # The test
- ## Boas praticas de um aplicativo.
+ ##  Application good practices
  
- Depois de ter implementado a maior parte do código, ela lembrou que o aplicativo precisa ser bem construído para atender todos os públicos e a sua mensagem seja bem passada.
+ Once you have implemented most of the code, she recalled that the application needs to be well-built to serve all audiences and your message is well develired.
  
- Ela sabe que o design precisa ser bem atrativo para o publico alvo, que são os frequentadores daquela praia, tanto moradores quanto turistas. 🏖
+ She knows that design needs to be very attractive for the target audience, who are the regulars beach people, both locals and tourists. 🏖
  
- Os elementos da interface precisam ficar bem distribuídos e os caminhos de navegação precisam ser claros para seu uso.
+ Interface elements need to be well-distributed and navigation paths need to be clear for their use.
  
- Ela vai realizar um playtest para saber se está tudo funcionado como deveria.
+ It will perform a playtest to see if everything is working as it.
 
  
  # Test check:
- * Bom design
- * Navegação fluida
- * Publico alvo atingido
- * Funcionalidade
+ * Good design.
+ * Navigation responsive.
+ * functionality
  
  # Link to nest Page:
  [Next Page: The new start](@next)

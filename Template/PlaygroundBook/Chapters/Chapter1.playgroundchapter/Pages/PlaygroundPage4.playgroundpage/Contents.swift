@@ -7,17 +7,17 @@
  # The strategy
  ## One code line by time.
  
-Depois de ter armazenado as informações, ela decidiu fazer um aplicativo📱  que informa e sugere atitudes que devemos tomar para ajudar a salvar os oceanos da poluição.
+Once you have stored the information, she decided to make an app📱  which informs and suggests the actions we must take to help save the oceans from pollution.
  
- Ações como onde, como e porque reciclar são encontradas no aplicativo, assim também  como:
+ Actions like where, how and why recycle are found in the application, as well as:
 
  # Implementation priorities:
- * Dicas de limpeza para os banhistas.
- * Locais de reciclagem.
- * Lista de beneficios sobre limpar os oceanos.
+ * Cleaning Tips for Bathers.
+ * Recycling places.
+ * List of benefits of clearing the oceans.
 
  
- Também lista diversos produtos que usamos no dia-a-dia que podemos substituir por outros que não agridem a vida aquática, como a substituição de canudos de plástico por canudos biodegradáveis. ♻️
+ It also lists several products that we use on a day-to-day which we can substitute for others that do not harm aquatic life, such as the replacement of plastic straws with biodegradable straws. ♻️
  
  
  # Link to nest Page:

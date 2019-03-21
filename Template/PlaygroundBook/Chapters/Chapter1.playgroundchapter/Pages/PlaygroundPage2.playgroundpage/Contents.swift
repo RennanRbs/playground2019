@@ -5,21 +5,21 @@
  
  
  # The Power
- ## Uma desenvolvedora decide usar seu super poder.
+ ## A developer decides to use her super power.
  
  - Note:
- Aqui nos vamos incorporar uma programadora para entender melhor a ideia de usar nossas habilidades para grandes ações.
+ Here we will incorporate a programmer to understand better the idea of ​​using our skills in big actions.
  
  
- Uma praia de Fortaleza-CE, no Brasil, chamada de Beira Mar, vem sofrendo grandes poluições pelos banhistas, barcos pesqueiros locais e de regiões próximas. Uma desenvolvedora que mora próxima a região sempre visitou a praia e percebeu que ela vem ficando mais suja com o passar dos anos e decide fazer algo para ajudar.
+A beach of Fortaleza-CE, in Brasil, called Beira Mar, suffering major pollution from bathers, local fishing and neighboring boats. A developer who lives near the area always visited the beach and realized that it has been getting dirtier over the years and decide to do something to help.
  
- Ela sabe que é um problema de grandes proporções e envolve muitos setores como pessoas, fatores e ambientes, mas não desanima diante das adversidades. 🤓
+ She knows it's a major problem and involves many sectors such as people, factors and environments, but not discouraged by adversity. 🤓
  
- Em seus anos de vida, ela adquiriu algumas qualidades como pesquisar informações, aplicação de metodologia ágil para organizar suas idéias usando o *CBL, montar protótipos de possíveis cenários para soluções
- e usar a programação para aplicar todo o seu conhecimento na prática.
+ In his years of life, eit acquired some qualities like searching information, application of agile methodology to organize their ideas using the CBL*, assemble prototypes of possible scenarios for solutions
+ and use the programming to apply all your knowledge in practice.
  
  + Important:
- *Challenge Based Learning, CBL é uma abordagem multidisciplinar referente ao ensino e aprendizagem que incentiva os alunos a utilizar a tecnologia que eles aplicada em suas vidas diárias para solucionar problemas do mundo real.
+ *Challenge Based Learning, CBL is a multidisciplinary approach to teaching and learning that encourages students to use technology  applied in their daily lives to solve real world problems.
  
  
  # Link to nest Page:
