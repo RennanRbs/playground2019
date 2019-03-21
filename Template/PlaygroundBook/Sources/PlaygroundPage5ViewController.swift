@@ -106,17 +106,26 @@ public class PlaygroundPage5ViewController: UIViewController {
     }
     @objc func handleTapGesture1(sender:UITapGestureRecognizer){
         imagemMark1.addSubview(imagemMarkX1)
+        imagemMarkX1.centerXAnchor.constraint(equalTo: imagemMark1.centerXAnchor).isActive = true
+        imagemMarkX1.centerYAnchor.constraint(equalTo: imagemMark1.centerYAnchor).isActive = true
     }
     @objc func handleTapGesture2(sender:UITapGestureRecognizer){
         imagemMark2.addSubview(imagemMarkX2)
+        imagemMarkX2.centerXAnchor.constraint(equalTo: imagemMark2.centerXAnchor).isActive = true
+        imagemMarkX2.centerYAnchor.constraint(equalTo: imagemMark2.centerYAnchor).isActive = true
+
         
     }
     @objc func handleTapGesture3(sender:UITapGestureRecognizer){
         imagemMark3.addSubview(imagemMarkX3)
+        imagemMarkX3.centerXAnchor.constraint(equalTo: imagemMark3.centerXAnchor).isActive = true
+        imagemMarkX3.centerYAnchor.constraint(equalTo: imagemMark3.centerYAnchor).isActive = true
         
     }
     @objc func handleTapGesture4(sender:UITapGestureRecognizer){
         imagemMark4.addSubview(imagemMarkX4)
+        imagemMarkX4.centerXAnchor.constraint(equalTo: imagemMark4.centerXAnchor).isActive = true
+        imagemMarkX4.centerYAnchor.constraint(equalTo: imagemMark4.centerYAnchor).isActive = true
         
     }
     

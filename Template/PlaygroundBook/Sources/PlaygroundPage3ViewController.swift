@@ -6,10 +6,15 @@
 //
 
 import UIKit
-
+import PlaygroundSupport
 
 public class PlaygroundPage3ViewController: UIViewController {
 
+    var flag1 = true
+    var flag2 = true
+    var flag3 = true
+    var flag4 = true
+    
     lazy var imageMac: UIImageView = {
         let imageName = "macBranco"
         let image = UIImage(named: imageName)
@@ -75,38 +80,48 @@ public class PlaygroundPage3ViewController: UIViewController {
     }
      @objc func handleTapGesture(sender:UITapGestureRecognizer){
         
+        if flag1 == true{
         UIView.animate(withDuration: 1, animations: {
             self.imagePesquisa01.frame.size.width -= 60
             self.imagePesquisa01.frame.size.height -= 60
             self.imagePesquisa01.frame.origin.x += 100
             self.imagePesquisa01.frame.origin.y += 160
-        })
+            self.flag1 = false
+        })}
     }
     
     @objc func handleTapGesture2(sender:UITapGestureRecognizer){
+        
+        if flag2 == true{
         UIView.animate(withDuration: 1, animations: {
             self.imagePesquisa02.frame.size.width -= 90
             self.imagePesquisa02.frame.size.height -= 60
             self.imagePesquisa02.frame.origin.x -= 110
             self.imagePesquisa02.frame.origin.y -= 250
-        })
+            self.flag2 = false
+        })}
     }
     @objc func handleTapGesture3(sender:UITapGestureRecognizer){
+        if flag3 == true{
         UIView.animate(withDuration: 1, animations: {
             self.imagePesquisa03.frame.size.width -= 50
             self.imagePesquisa03.frame.size.height -= 20
             self.imagePesquisa03.frame.origin.x -= 160
             self.imagePesquisa03.frame.origin.y += 190
-        })
+            self.flag3 = false
+        })}
     }
     @objc func handleTapGesture4(sender:UITapGestureRecognizer){
+        if flag4 == true {
         UIView.animate(withDuration: 1, animations: {
             self.imagePesquisa04.frame.size.width -= 10
             self.imagePesquisa04.frame.size.height -= 10
             self.imagePesquisa04.frame.origin.x += 170
             self.imagePesquisa04.frame.origin.y -= 160
-        })
+            self.flag4 = false
+        })}
     }
+    
 
     func setupConstraints()  {
         imageMac.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
@@ -134,6 +149,8 @@ public class PlaygroundPage3ViewController: UIViewController {
 
 
     }
+    
+    
 
 
 }

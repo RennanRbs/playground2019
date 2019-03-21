@@ -1,45 +1,30 @@
-//#-hidden-code
-//
-//  See LICENSE folder for this template’s licensing information.
-//
-//  Abstract:
-//  The Swift file containing the source code edited by the user of this playground book.
-//
-//#-end-hidden-code
-let str = "Hello, Rennan"
+
 /*:
  
- # Title
- ## Subtitle
  
- ### Paragraph
  
- Normal Text
  
- - Important:
- There are some other kinds of highlights.
+ # The beginning
+ ## The great power we have.
  
  - Note:
- Give me an E Major, conductor.
+ Hi, welcome to my playground. For best experience use in Landscape orientation.🤓
+ 
+ 
+ I would like to show the experience of power that people have in their hands and the incredible things they can do, I hope you enjoy. 😄
+ 
+ People in marine environments have been increasing over the years e, unhappily, the preservation is good so well.
+ Most of the sea trash is plastic. Factors ;like discard incorrectly by costumers, vessels dumping oil and lack of selective collection make serious problem to ecosystem
  
  + Important:
- This is very cool.
+ Did you know that 500 tons of garbage are dumped per day by bathers around the world
  
- + Example:
- This is an example.
- 
- # Photo:
- ![Description of Photo](Alysson.HEIC "Um cara diferenciado")
- 
- # List:
- * First item
- * Second Item
- 
- # Link to Web:
- [Apple Site](htttp://www.apple.com)
- 
- # Link to other Pages:
- [Next Page: Num Sei](@next)
+ This pollution of the oceans has been negatively affecting marine life, causing water warm up, destruction of marine animal habitats, acidification of the oceans and corals.
+
+ # Link to nest Page:
+ [Next Page: Uma desenvolvedora decide usar seu super poder](@next)
  
  
  */
+
+
