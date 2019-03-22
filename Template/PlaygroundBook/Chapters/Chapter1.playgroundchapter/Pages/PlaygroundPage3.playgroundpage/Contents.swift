@@ -28,7 +28,8 @@ func makeSearch(){
  
  
 # instrutions
-* Put the function makeSearch() and Run My code to add Search itens around the Mac.
+1. Put the function makeSearch() and Run My code to add Search itens around the Mac.
+2. Tap the items around the Mac to help organize them.
 */
 
 
@@ -40,8 +41,7 @@ func makeSearch(){
 /*#-editable-code TAP TO ENTER CODE*//*#-end-editable-code*/
 
 /*:
-# Instrutions
- * Now tap the items around the Mac to help organize them.
+
  # Link to next Page:
  [Next Page: One code line by time.](@next)
 */

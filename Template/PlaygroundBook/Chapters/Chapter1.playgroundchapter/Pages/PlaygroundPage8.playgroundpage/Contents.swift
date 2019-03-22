@@ -7,9 +7,9 @@
  # About me
  
  
- Me chamo Rennan Rebouças, tenho 28 anos e estou cursando Engenharia de Computação no Instituto Federal do Ceará, Brasil.
- Essa ideia de o programador ter super poderes, sempre me veio a cabeça quando eu tento explicar para meus amigos e familiares o que eu aprendi na faculdade e o que eu faço no trabalho. E como amo super herois fica mais divertido 😁. Todos os programas, aplicativos e soluções que me deixaram mais empolgados para trabalhar e me deram mais energia para dedicar mais horas são os que buscam solucionar, melhorar ou implementar algo bom para as pessoas, algo que ajude algo ou alguém. Ja trabalhei na construção de aplicativos para saúde mental, plataformas que visam amenizar o estresse do cotidiano, e quando via todo o potencial de algo que estava fazendo para ajudar as pessoas, me dava mais energia para aprender novas tecnologias e melhorar ainda mais meus conhecimentos. Dei alguns exemplos reais de coisas que precisei estudar e fazer durante o desenvolvimento.
- Por isso resolvi mostrar que as pessoas tem grandes poderes nas mãos e o mundo se tornaria melhor se usassemos para fazer o bom. 😉
+ My name is Rennan Rebouças, I'm 28 and I'm Computer Engineering student at Instituto Federal do Ceará, Brasil.
+ This idea of ​​the programmer having super powers It was always my mind blow. I always make this explanation when I explain to my friends what I do. and I like to pass on the idea that everyone has super powers. With super heroes, everything becomes more fun 😁. all programs, applications and solutions qthat made me more excited to work are the ones that make me improve something. I already worked on building applications focused on the help of forests and the environment. When I saw all my effort contributing to nature I saw the power I have in my hands.
+ So I decided to show that people have great powers in their hands, engeniers, doctors, architects,teachers among others and the world would become better if we used to do good. 😉
  */
 
 

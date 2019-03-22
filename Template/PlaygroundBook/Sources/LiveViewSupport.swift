@@ -23,6 +23,6 @@ public func instantiateLiveView() -> PlaygroundLiveViewable {
     }
 
 //    return liveViewController
-    return PlaygroundPage7ViewController()
+    return PlaygroundPage6ViewController()
 }
 

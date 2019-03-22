@@ -13,7 +13,7 @@
  
  I would like to show the experience of power that people have in their hands and the incredible things they can do, I hope you enjoy. 😄
  
- People in marine environments have been increasing over the years e, unhappily, the preservation is good so well.
+ People in marine environments have been increasing over the years and, unhappily, the preservation is good so well(nao entendi).
  Most of the sea trash is plastic. Factors like discard incorrectly by costumers, vessels dumping oil and lack of selective collection make serious problem to ecosystem
  
  + Important:

@@ -7,13 +7,13 @@
  # The power inside us
  ## All power by one person.
  
- A programadora percebeu que que suas habilidades tiveram um grande poder sobre aquela praia, ela ajudou a melhorar
+ The programmer realized that her abilities had great power on that beach, she helped to improve:
 
-* Qualidade de vida dos animais marinhos
-* Melhorar o ambiente praiano
-* promover uma cultura de limpeza dos moradores locais e isso pode se propagar para mais pessoas.
+* Quality of life of marine animals
+* Improve the beach environment
+* promote a culture of cleaning the local people and this can spread to tourists.
  
- Ela se viu como uma heroína e poderia fazer isso com outras praias, florestas ou qualquer outro bioma que encontrasse. Procurando outras pessoas com interesses em comum, eles formaram uma equipe de desenvolvedores com super-poderes para mudar o mundo para um lugar melhor.
+ She saw herself as a heroine. and could do this with other beaches, flores or any other biome. Looks other people with common interests, they formed a team of developers with superpowers to make the world a better place.
  
 
  # Link to Web:

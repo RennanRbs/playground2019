@@ -23,11 +23,26 @@ Once you have stored the information, she decided to make an app📱  which info
  * List of benefits of clearing the oceans.
 
  
- It also lists several products that we use on a day-to-day which we can substitute for others that do not harm aquatic life, such as the replacement of plastic straws with biodegradable straws. ♻️
+ It also lists several products that we can use on a day-to-day which one can substitute for others that do not destructive aquatic life, such as the replacement of plastic straws with biodegradable straws. ♻️
  
- 
+ # instrutions
+ 1. Put the function startXcode() and Run My code to code in you Mac.
+ 2. Tap on Mac to Code.
+ */
+
+//#-hidden-code
+//#-code-completion(everything, hide)
+//#-code-completion(identifier, show, startXcode())
+
+//#-end-hidden-code
+/*#-editable-code TAP TO ENTER CODE*//*#-end-editable-code*/
+
+
+/*:
  # Link to nest Page:
  [Next Page: Boas praticas de um aplicativo](@next)
  
  
- */
+*/
+
+

@@ -153,7 +153,7 @@ public class PlaygroundPage1ViewController: UIViewController {
         peixeAzul.widthAnchor.constraint(equalToConstant: 80).isActive = true
         peixeAmarelo.heightAnchor.constraint(equalToConstant: 80).isActive = true
         peixeAmarelo.widthAnchor.constraint(equalToConstant: 80).isActive = true
-        peixeAzulClaro.heightAnchor.constraint(equalToConstant: 80).isActive = true
+        peixeAzulClaro.heightAnchor.constraint(equalToConstant: 120).isActive = true
         peixeAzulClaro.widthAnchor.constraint(equalToConstant: 80).isActive = true
         
     }

@@ -1,4 +1,10 @@
-
+//#-hidden-code
+import PlaygroundSupport
+func makeTest(){
+    let liveView = PlaygroundPage.current.liveView as! PlaygroundRemoteLiveViewProxy
+    liveView.send(.string("test"))
+}
+//#-end-hidden-code
 /*:
  
  
@@ -21,10 +27,24 @@
  * Navigation responsive.
  * functionality
  
- # Link to nest Page:
- [Next Page: The new start](@next)
  
+ # instrutions
+ 1. Put the function makeTest() and Run My code to realize test.
+ 2. Tap on check list to realize.
  
  */
 
 
+//#-hidden-code
+//#-code-completion(everything, hide)
+//#-code-completion(identifier, show, makeTest())
+
+//#-end-hidden-code
+/*#-editable-code TAP TO ENTER CODE*//*#-end-editable-code*/
+
+/*:
+ # Link to next Page:
+ [Next Page: The new start](@next)
+ 
+ 
+*/
