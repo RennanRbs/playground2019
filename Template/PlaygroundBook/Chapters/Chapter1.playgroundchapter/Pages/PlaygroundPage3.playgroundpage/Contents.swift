@@ -1,4 +1,10 @@
-
+//#-hidden-code
+import PlaygroundSupport
+func makeSearch(){
+    let liveView = PlaygroundPage.current.liveView as! PlaygroundRemoteLiveViewProxy
+    liveView.send(.string("search"))
+}
+//#-end-hidden-code
 /*:
  
  
@@ -14,7 +20,8 @@
  She found that plastics have a high rate of absorption of pollutants and toxicity, and may be altered by exposure to ultra violet rays and salt water, and joining the plankton.
  Fish, or any type of marine animal that feeds on these materials, got the risk of contamination.
  People who eat these fish will also become risk of contamination. Beyond visual pollution, the garbage causes the destruction of corals and algae from the Costa Marinha, causing the decrease of fauna of the region
- She decided to gather all this information pass on to people, but for this she needs your help. Tap the items around the Mac to help organize them.
+ She decided to gather all this information pass on to people, but for this she needs your help.
+ 
  
  # Search:
  * Marine ecosystem chart.
@@ -22,7 +29,27 @@
  * Garbage images discarded
  * Pesquisa de reclamação das pessoas da região.
  
+* Put the function makeSearch() and Run My code to add Search itens around the Mac.
+*/
 
+
+//#-hidden-code
+//#-code-completion(everything, hide)
+//#-code-completion(identifier, show, makeSearch(), shuttleLaunch())
+
+//#-end-hidden-code
+/*#-editable-code TAP TO ENTER CODE*//*#-end-editable-code*/
+
+ /*:
+ * Now tap the items around the Mac to help organize them.
  # Link to nest Page:
  [Next Page: One code line by time.](@next)
  */
+ 
+ 
+ 
+
+
+
+
+

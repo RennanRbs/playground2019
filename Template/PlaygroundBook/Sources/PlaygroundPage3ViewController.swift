@@ -8,7 +8,7 @@
 import UIKit
 import PlaygroundSupport
 
-public class PlaygroundPage3ViewController: UIViewController {
+public class PlaygroundPage3ViewController: UIViewController, PlaygroundLiveViewMessageHandler, PlaygroundLiveViewSafeAreaContainer {
 
     var flag1 = true
     var flag2 = true
@@ -58,23 +58,11 @@ public class PlaygroundPage3ViewController: UIViewController {
 
     override public func viewDidLoad() {
         super.viewDidLoad()
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture))
-        let tapGestureRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture2))
-        let tapGestureRecognizer3 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture3))
-        let tapGestureRecognizer4 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture4))
         
         view.addSubview(imageMac)
-        view.addSubview(imagePesquisa01)
-        imagePesquisa01.addGestureRecognizer(tapGestureRecognizer)
-        view.addSubview(imagePesquisa02)
-        imagePesquisa02.addGestureRecognizer(tapGestureRecognizer2)
-        view.addSubview(imagePesquisa03)
-        imagePesquisa03.addGestureRecognizer(tapGestureRecognizer3)
-        view.addSubview(imagePesquisa04)
-        imagePesquisa04.addGestureRecognizer(tapGestureRecognizer4)
-
+        
         setupConstraints()
-
+        
 
 
     }
@@ -126,6 +114,30 @@ public class PlaygroundPage3ViewController: UIViewController {
     func setupConstraints()  {
         imageMac.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         imageMac.centerYAnchor.constraint(equalTo:view.centerYAnchor).isActive = true
+       
+
+        imageMac.widthAnchor.constraint(equalToConstant: 350).isActive = true
+        imageMac
+            .heightAnchor.constraint(equalToConstant: 300).isActive = true
+        
+
+
+    }
+    
+    func addSearch()  {
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture))
+        let tapGestureRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture2))
+        let tapGestureRecognizer3 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture3))
+        let tapGestureRecognizer4 = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture4))
+        
+        view.addSubview(imagePesquisa01)
+        imagePesquisa01.addGestureRecognizer(tapGestureRecognizer)
+        view.addSubview(imagePesquisa02)
+        imagePesquisa02.addGestureRecognizer(tapGestureRecognizer2)
+        view.addSubview(imagePesquisa03)
+        imagePesquisa03.addGestureRecognizer(tapGestureRecognizer3)
+        view.addSubview(imagePesquisa04)
+        imagePesquisa04.addGestureRecognizer(tapGestureRecognizer4)
         imagePesquisa01.centerYAnchor.constraint(equalTo: imageMac.centerYAnchor, constant: -200).isActive = true
         imagePesquisa01.centerXAnchor.constraint(equalTo: imageMac.centerXAnchor, constant: -150).isActive = true
         imagePesquisa02.centerYAnchor.constraint(equalTo: imageMac.centerYAnchor, constant: 200).isActive = true
@@ -134,10 +146,6 @@ public class PlaygroundPage3ViewController: UIViewController {
         imagePesquisa03.centerXAnchor.constraint(equalTo: imageMac.centerXAnchor, constant: 150).isActive = true
         imagePesquisa04.centerYAnchor.constraint(equalTo: imageMac.centerYAnchor, constant: 200).isActive = true
         imagePesquisa04.centerXAnchor.constraint(equalTo: imageMac.centerXAnchor, constant: -150).isActive = true
-
-        imageMac.widthAnchor.constraint(equalToConstant: 350).isActive = true
-        imageMac
-            .heightAnchor.constraint(equalToConstant: 300).isActive = true
         imagePesquisa01.heightAnchor.constraint(equalToConstant: 100).isActive = true
         imagePesquisa01.widthAnchor.constraint(equalToConstant: 100).isActive = true
         imagePesquisa02.heightAnchor.constraint(equalToConstant: 100).isActive = true
@@ -146,8 +154,23 @@ public class PlaygroundPage3ViewController: UIViewController {
         imagePesquisa03.widthAnchor.constraint(equalToConstant: 200).isActive = true
         imagePesquisa04.heightAnchor.constraint(equalToConstant: 50).isActive = true
         imagePesquisa04.widthAnchor.constraint(equalToConstant: 50).isActive = true
-
-
+    }
+    
+    
+    
+    public func receive(_ message: PlaygroundValue) {
+        switch message {
+            
+        case .string(let value) :
+            if value == "search"{
+                addSearch()
+            }
+            break
+            
+        default:
+            print("Oh, my bad!")
+            
+        }
     }
     
     
