@@ -11,11 +11,10 @@
  Here we will incorporate a programmer to understand better the idea of ​​using our skills in big actions.
  
  
-A beach of Fortaleza-CE, in Brasil, called Beira Mar, suffering major pollution from bathers, local fishing and neighboring boats. A developer who lives near the area always visited the beach and realized that it has been getting dirtier over the years and decide to do something to help.
+A beach of Fortaleza-CE, in Brasil, called Beira Mar, is suffering major pollution from bathers, local fishing and neighboring boats. A developer who lives near the area always visited the beach and realized that it has been getting dirtier over the years and decide to do something to help.
  
- She knows it's a major problem and involves many sectors such as people, factors and environments, but not discouraged by adversity. 🤓
- 
- In his years of life, her acquired some qualities like searching information, application of agile methodology to organize their ideas using the CBL*, assemble prototypes of possible scenarios for solutions
+ She knows that's a major problem and involves many sectors such as people, factors and environments, but is not discouraged by adversity. 🤓
+  In her years of life, her acquired some skills like searching information, application of agile methodology to organize their ideas using the CBL*, assemble prototypes of possible scenarios for solutions
  and use the programming to apply all your knowledge in practice.
  
  + Important:

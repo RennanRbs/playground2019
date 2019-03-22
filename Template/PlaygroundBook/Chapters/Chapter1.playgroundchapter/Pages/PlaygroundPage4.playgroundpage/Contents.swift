@@ -13,9 +13,9 @@ func startXcode(){
  # The strategy
  ## One code line by time.
  
-Once you have stored the information, she decided to make an app📱  which informs and suggests the actions we must take to help save the oceans from pollution.
+Once information ha store, she decided to make an app📱  which informs and suggests the actions we must take to help save the oceans from pollution.
  
- Actions like where, how and why recycle are found in the application, as well as:
+ Content like where, how and why recycle are found in the application, as well as:
 
  # Implementation priorities:
  * Cleaning Tips for Bathers.
@@ -23,7 +23,7 @@ Once you have stored the information, she decided to make an app📱  which info
  * List of benefits of clearing the oceans.
 
  
- It also lists several products that we can use on a day-to-day which one can substitute for others that do not destructive aquatic life, such as the replacement of plastic straws with biodegradable straws. ♻️
+ It also lists several products that we can use on a dayle bases which one can substitute for others that do not destructive aquatic life, such as the replacement of plastic straws with biodegradable straws. ♻️
  
  # instrutions
  1. Put the function startXcode() and Run My code to code in you Mac.
