@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import PlaygroundSupport
 
-public class PlaygroundPage4ViewController: UIViewController {
+public class PlaygroundPage4ViewController: UIViewController, PlaygroundLiveViewMessageHandler, PlaygroundLiveViewSafeAreaContainer {
 
     lazy var areaDeTrabalho: UIImageView = {
         let imageName = "areaDeTrabalho"
@@ -88,15 +89,23 @@ public class PlaygroundPage4ViewController: UIViewController {
     }
     
     @objc func handleTapGesture1(sender:UITapGestureRecognizer){
+//        areaDeTrabalho.addSubview(image1)
+//
+//        image1.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.7).isActive = true
+//        image1.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5).isActive = true
+//        image1.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//        image1.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+//
+        
+        
+    }
+    func letsCode()  {
         areaDeTrabalho.addSubview(image1)
         
         image1.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.7).isActive = true
         image1.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5).isActive = true
         image1.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         image1.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-    
-        
-        
     }
     @objc func handleTapGesture2(sender:UITapGestureRecognizer){
         image1.addSubview(image2)
@@ -137,6 +146,21 @@ public class PlaygroundPage4ViewController: UIViewController {
         
         
         
+    }
+    
+    public func receive(_ message: PlaygroundValue) {
+        switch message {
+            
+        case .string(let value) :
+            if value == "Code"{
+                letsCode()
+            }
+            break
+            
+        default:
+            print("Oh, my bad!")
+            
+        }
     }
     
 

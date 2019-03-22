@@ -1,4 +1,10 @@
-
+//#-hidden-code
+import PlaygroundSupport
+func startXcode(){
+    let liveView = PlaygroundPage.current.liveView as! PlaygroundRemoteLiveViewProxy
+    liveView.send(.string("Code"))
+}
+//#-end-hidden-code
 /*:
  
  

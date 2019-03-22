@@ -23,12 +23,11 @@ func makeSearch(){
  She decided to gather all this information pass on to people, but for this she needs your help.
  
  
- # Search:
- * Marine ecosystem chart.
- * Presearch the damage caused in fish.
- * Garbage images discarded
- * Pesquisa de reclamação das pessoas da região.
+ ### Search:
+ Marine ecosystem chart.Presearch the damage caused in fish.Garbage images discarded.
  
+ 
+# instrutions
 * Put the function makeSearch() and Run My code to add Search itens around the Mac.
 */
 
@@ -40,11 +39,12 @@ func makeSearch(){
 //#-end-hidden-code
 /*#-editable-code TAP TO ENTER CODE*//*#-end-editable-code*/
 
- /*:
+/*:
+# Instrutions
  * Now tap the items around the Mac to help organize them.
- # Link to nest Page:
+ # Link to next Page:
  [Next Page: One code line by time.](@next)
- */
+*/
  
  
  

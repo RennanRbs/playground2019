@@ -15,7 +15,7 @@ A beach of Fortaleza-CE, in Brasil, called Beira Mar, suffering major pollution 
  
  She knows it's a major problem and involves many sectors such as people, factors and environments, but not discouraged by adversity. 🤓
  
- In his years of life, eit acquired some qualities like searching information, application of agile methodology to organize their ideas using the CBL*, assemble prototypes of possible scenarios for solutions
+ In his years of life, her acquired some qualities like searching information, application of agile methodology to organize their ideas using the CBL*, assemble prototypes of possible scenarios for solutions
  and use the programming to apply all your knowledge in practice.
  
  + Important:

@@ -21,7 +21,7 @@ public class PlaygroundPage1ViewController: UIViewController {
         return imageT
     }()
     lazy var peixeAzul: UIImageView = {
-        let imageName = "peixeAzul"
+        let imageName = "peixe2Sad"
         let image = UIImage(named: imageName)
         let imageT = UIImageView(image: image!)
         imageT.translatesAutoresizingMaskIntoConstraints = false
@@ -30,7 +30,7 @@ public class PlaygroundPage1ViewController: UIViewController {
         return imageT
     }()
     lazy var peixeAmarelo: UIImageView = {
-        let imageName = "peixeAmarelo"
+        let imageName = "peixe3Sad"
         let image = UIImage(named: imageName)
         let imageT = UIImageView(image: image!)
         imageT.translatesAutoresizingMaskIntoConstraints = false
@@ -39,7 +39,7 @@ public class PlaygroundPage1ViewController: UIViewController {
         return imageT
     }()
     lazy var peixeLaranja: UIImageView = {
-        let imageName = "peixeLaranja"
+        let imageName = "peixe1"
         let image = UIImage(named: imageName)
         let imageT = UIImageView(image: image!)
         imageT.translatesAutoresizingMaskIntoConstraints = false
@@ -48,7 +48,7 @@ public class PlaygroundPage1ViewController: UIViewController {
         return imageT
     }()
     lazy var peixeAzulClaro: UIImageView = {
-        let imageName = "peixeAzulClaro"
+        let imageName = "peixe4"
         let image = UIImage(named: imageName)
         let imageT = UIImageView(image: image!)
         imageT.translatesAutoresizingMaskIntoConstraints = false
@@ -146,6 +146,15 @@ public class PlaygroundPage1ViewController: UIViewController {
         saco01.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -140).isActive = true
         garrafa.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 100).isActive = true
         garrafa.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 100).isActive = true
+        
+        peixeLaranja.heightAnchor.constraint(equalToConstant: 80).isActive = true
+        peixeLaranja.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        peixeAzul.heightAnchor.constraint(equalToConstant: 80).isActive = true
+        peixeAzul.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        peixeAmarelo.heightAnchor.constraint(equalToConstant: 80).isActive = true
+        peixeAmarelo.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        peixeAzulClaro.heightAnchor.constraint(equalToConstant: 80).isActive = true
+        peixeAzulClaro.widthAnchor.constraint(equalToConstant: 80).isActive = true
         
     }
     

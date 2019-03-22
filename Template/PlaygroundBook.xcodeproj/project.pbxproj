@@ -55,8 +55,6 @@
 		E85C57642243314C008FB54E /* garrafa.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57632243314C008FB54E /* garrafa.png */; };
 		E85C57652243314C008FB54E /* garrafa.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C57632243314C008FB54E /* garrafa.png */; };
 		E85C5769224332E2008FB54E /* PlaygroundPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B382D224280E2006A4CF1 /* PlaygroundPage2ViewController.swift */; };
-		E85C576E224335A8008FB54E /* quarto.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C576D224335A8008FB54E /* quarto.png */; };
-		E85C576F224335A8008FB54E /* quarto.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C576D224335A8008FB54E /* quarto.png */; };
 		E85C577122433A14008FB54E /* prancheta.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C577022433A14008FB54E /* prancheta.png */; };
 		E85C577222433A14008FB54E /* prancheta.png in Resources */ = {isa = PBXBuildFile; fileRef = E85C577022433A14008FB54E /* prancheta.png */; };
 		E85C577322433A74008FB54E /* PlaygroundPage5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3831224280E2006A4CF1 /* PlaygroundPage5ViewController.swift */; };
@@ -82,6 +80,34 @@
 		E8EB9BC42243C88800EC0353 /* xcode5.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BB92243C88700EC0353 /* xcode5.png */; };
 		E8EB9BC52243C88800EC0353 /* xcode1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BBA2243C88700EC0353 /* xcode1.png */; };
 		E8EB9BC62243C88800EC0353 /* xcode1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BBA2243C88700EC0353 /* xcode1.png */; };
+		E8EB9BC82244874600EC0353 /* quarto.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BC72244874600EC0353 /* quarto.png */; };
+		E8EB9BC92244874600EC0353 /* quarto.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BC72244874600EC0353 /* quarto.png */; };
+		E8EB9BCB2244880600EC0353 /* lampada.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BCA2244880600EC0353 /* lampada.png */; };
+		E8EB9BCC2244880600EC0353 /* lampada.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BCA2244880600EC0353 /* lampada.png */; };
+		E8EB9BCD22448D0D00EC0353 /* PlaygroundPage6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3832224280E2006A4CF1 /* PlaygroundPage6ViewController.swift */; };
+		E8EB9BCF2244911100EC0353 /* oceanoLimpo.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BCE2244911100EC0353 /* oceanoLimpo.png */; };
+		E8EB9BD02244911100EC0353 /* oceanoLimpo.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BCE2244911100EC0353 /* oceanoLimpo.png */; };
+		E8EB9BD22244916100EC0353 /* peixeAzulao.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD12244916100EC0353 /* peixeAzulao.png */; };
+		E8EB9BD32244916100EC0353 /* peixeAzulao.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD12244916100EC0353 /* peixeAzulao.png */; };
+		E8EB9BD52244916600EC0353 /* polvo.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD42244916600EC0353 /* polvo.png */; };
+		E8EB9BD62244916600EC0353 /* polvo.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD42244916600EC0353 /* polvo.png */; };
+		E8EB9BDB224494BC00EC0353 /* peixe1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD7224494BC00EC0353 /* peixe1.png */; };
+		E8EB9BDC224494BC00EC0353 /* peixe1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD7224494BC00EC0353 /* peixe1.png */; };
+		E8EB9BDD224494BC00EC0353 /* peixe4.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD8224494BC00EC0353 /* peixe4.png */; };
+		E8EB9BDE224494BC00EC0353 /* peixe4.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD8224494BC00EC0353 /* peixe4.png */; };
+		E8EB9BDF224494BC00EC0353 /* peixe3Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD9224494BC00EC0353 /* peixe3Sad.png */; };
+		E8EB9BE0224494BC00EC0353 /* peixe3Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BD9224494BC00EC0353 /* peixe3Sad.png */; };
+		E8EB9BE1224494BC00EC0353 /* peixe2Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BDA224494BC00EC0353 /* peixe2Sad.png */; };
+		E8EB9BE2224494BC00EC0353 /* peixe2Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BDA224494BC00EC0353 /* peixe2Sad.png */; };
+		E8EB9BE42244965F00EC0353 /* peixe2.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BE32244965F00EC0353 /* peixe2.png */; };
+		E8EB9BE52244965F00EC0353 /* peixe2.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BE32244965F00EC0353 /* peixe2.png */; };
+		E8EB9BE72244967A00EC0353 /* peixe3.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BE62244967A00EC0353 /* peixe3.png */; };
+		E8EB9BE82244967A00EC0353 /* peixe3.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BE62244967A00EC0353 /* peixe3.png */; };
+		E8EB9BEA224498E000EC0353 /* cape.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BE9224498E000EC0353 /* cape.png */; };
+		E8EB9BEB224498E000EC0353 /* cape.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BE9224498E000EC0353 /* cape.png */; };
+		E8EB9BED224498E800EC0353 /* girlPower.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BEC224498E800EC0353 /* girlPower.png */; };
+		E8EB9BEE224498E800EC0353 /* girlPower.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EB9BEC224498E800EC0353 /* girlPower.png */; };
+		E8EB9BEF2244992C00EC0353 /* PlaygroundPage7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B3835224280E3006A4CF1 /* PlaygroundPage7ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -195,7 +221,6 @@
 		E85C575D22433001008FB54E /* saco2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saco2.png; sourceTree = "<group>"; };
 		E85C575E22433001008FB54E /* saco1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saco1.png; sourceTree = "<group>"; };
 		E85C57632243314C008FB54E /* garrafa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garrafa.png; sourceTree = "<group>"; };
-		E85C576D224335A8008FB54E /* quarto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarto.png; sourceTree = "<group>"; };
 		E85C577022433A14008FB54E /* prancheta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prancheta.png; sourceTree = "<group>"; };
 		E85C577B22433FB6008FB54E /* eu3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eu3.jpeg; sourceTree = "<group>"; };
 		E8EB9BA622439BAD00EC0353 /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mark.png; path = ../../../../mark.png; sourceTree = "<group>"; };
@@ -206,6 +231,19 @@
 		E8EB9BB82243C88700EC0353 /* xcode4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode4.png; sourceTree = "<group>"; };
 		E8EB9BB92243C88700EC0353 /* xcode5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode5.png; sourceTree = "<group>"; };
 		E8EB9BBA2243C88700EC0353 /* xcode1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode1.png; sourceTree = "<group>"; };
+		E8EB9BC72244874600EC0353 /* quarto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarto.png; sourceTree = "<group>"; };
+		E8EB9BCA2244880600EC0353 /* lampada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampada.png; sourceTree = "<group>"; };
+		E8EB9BCE2244911100EC0353 /* oceanoLimpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oceanoLimpo.png; sourceTree = "<group>"; };
+		E8EB9BD12244916100EC0353 /* peixeAzulao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixeAzulao.png; sourceTree = "<group>"; };
+		E8EB9BD42244916600EC0353 /* polvo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polvo.png; sourceTree = "<group>"; };
+		E8EB9BD7224494BC00EC0353 /* peixe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixe1.png; sourceTree = "<group>"; };
+		E8EB9BD8224494BC00EC0353 /* peixe4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixe4.png; sourceTree = "<group>"; };
+		E8EB9BD9224494BC00EC0353 /* peixe3Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixe3Sad.png; sourceTree = "<group>"; };
+		E8EB9BDA224494BC00EC0353 /* peixe2Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixe2Sad.png; sourceTree = "<group>"; };
+		E8EB9BE32244965F00EC0353 /* peixe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixe2.png; sourceTree = "<group>"; };
+		E8EB9BE62244967A00EC0353 /* peixe3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peixe3.png; sourceTree = "<group>"; };
+		E8EB9BE9224498E000EC0353 /* cape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cape.png; sourceTree = "<group>"; };
+		E8EB9BEC224498E800EC0353 /* girlPower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girlPower.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,12 +411,24 @@
 			isa = PBXGroup;
 			children = (
 				E85C5752224329F4008FB54E /* peixeAmarelo.png */,
-				E85C576D224335A8008FB54E /* quarto.png */,
+				E8EB9BCA2244880600EC0353 /* lampada.png */,
+				E8EB9BE9224498E000EC0353 /* cape.png */,
+				E8EB9BE62244967A00EC0353 /* peixe3.png */,
+				E8EB9BD42244916600EC0353 /* polvo.png */,
+				E8EB9BE32244965F00EC0353 /* peixe2.png */,
+				E8EB9BEC224498E800EC0353 /* girlPower.png */,
+				E8EB9BD12244916100EC0353 /* peixeAzulao.png */,
+				E8EB9BCE2244911100EC0353 /* oceanoLimpo.png */,
 				E8EB9BB52243C88600EC0353 /* areaDeTrabalho.png */,
+				E8EB9BC72244874600EC0353 /* quarto.png */,
 				E8EB9BBA2243C88700EC0353 /* xcode1.png */,
 				E8EB9BB62243C88700EC0353 /* xcode2.png */,
 				E8EB9BB72243C88700EC0353 /* xcode3.png */,
 				E8EB9BB82243C88700EC0353 /* xcode4.png */,
+				E8EB9BD7224494BC00EC0353 /* peixe1.png */,
+				E8EB9BDA224494BC00EC0353 /* peixe2Sad.png */,
+				E8EB9BD9224494BC00EC0353 /* peixe3Sad.png */,
+				E8EB9BD8224494BC00EC0353 /* peixe4.png */,
 				E8EB9BB92243C88700EC0353 /* xcode5.png */,
 				E85C577B22433FB6008FB54E /* eu3.jpeg */,
 				E8EB9BA92243A00400EC0353 /* markX.png */,
@@ -506,7 +556,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EB9BE42244965F00EC0353 /* peixe2.png in Resources */,
+				E8EB9BCF2244911100EC0353 /* oceanoLimpo.png in Resources */,
 				E8EB9BB32243AFAC00EC0353 /* peixeAzul.png in Resources */,
+				E8EB9BDB224494BC00EC0353 /* peixe1.png in Resources */,
+				E8EB9BD52244916600EC0353 /* polvo.png in Resources */,
 				E85B386C224281C3006A4CF1 /* macBranco.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				E85C576122433001008FB54E /* saco1.png in Resources */,
@@ -515,23 +569,31 @@
 				E85C5759224329F5008FB54E /* peixeAzulClaro.png in Resources */,
 				E85C574B2243282E008FB54E /* fundoDoMar.png in Resources */,
 				E85C575F22433001008FB54E /* saco2.png in Resources */,
+				E8EB9BDD224494BC00EC0353 /* peixe4.png in Resources */,
 				E85B387E224281C3006A4CF1 /* pesquisa03.png in Resources */,
 				E8EB9BC32243C88800EC0353 /* xcode5.png in Resources */,
+				E8EB9BE1224494BC00EC0353 /* peixe2Sad.png in Resources */,
 				E85B386E224281C3006A4CF1 /* pesquisa02.png in Resources */,
+				E8EB9BDF224494BC00EC0353 /* peixe3Sad.png in Resources */,
 				E8EB9BBB2243C88800EC0353 /* areaDeTrabalho.png in Resources */,
 				E8EB9BC12243C88800EC0353 /* xcode4.png in Resources */,
-				E85C576E224335A8008FB54E /* quarto.png in Resources */,
 				E8EB9BBF2243C88800EC0353 /* xcode3.png in Resources */,
+				E8EB9BC82244874600EC0353 /* quarto.png in Resources */,
 				E8EB9BA722439BAD00EC0353 /* mark.png in Resources */,
+				E8EB9BD22244916100EC0353 /* peixeAzulao.png in Resources */,
 				E8EB9BAA2243A00400EC0353 /* markX.png in Resources */,
+				E8EB9BEA224498E000EC0353 /* cape.png in Resources */,
 				E85C57642243314C008FB54E /* garrafa.png in Resources */,
 				E8EB9BC52243C88800EC0353 /* xcode1.png in Resources */,
 				E85C577122433A14008FB54E /* prancheta.png in Resources */,
 				E85B3864224281C3006A4CF1 /* pesquisa01.png in Resources */,
+				E8EB9BED224498E800EC0353 /* girlPower.png in Resources */,
 				E85C577C22433FB6008FB54E /* eu3.jpeg in Resources */,
+				E8EB9BCB2244880600EC0353 /* lampada.png in Resources */,
 				E85C5757224329F5008FB54E /* peixeAmarelo.png in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 				E85C575B224329F5008FB54E /* peixeLaranja.png in Resources */,
+				E8EB9BE72244967A00EC0353 /* peixe3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,29 +602,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85C573B2242A782008FB54E /* pesquisa04.png in Resources */,
+				E8EB9BD62244916600EC0353 /* polvo.png in Resources */,
 				E85B386D224281C3006A4CF1 /* macBranco.png in Resources */,
 				E85B386F224281C3006A4CF1 /* pesquisa02.png in Resources */,
 				E85B3865224281C3006A4CF1 /* pesquisa01.png in Resources */,
 				E8EB9BBC2243C88800EC0353 /* areaDeTrabalho.png in Resources */,
+				E8EB9BE0224494BC00EC0353 /* peixe3Sad.png in Resources */,
 				E8EB9BC42243C88800EC0353 /* xcode5.png in Resources */,
 				E8EB9BBE2243C88800EC0353 /* xcode2.png in Resources */,
 				E8EB9BC22243C88800EC0353 /* xcode4.png in Resources */,
 				E85C5758224329F5008FB54E /* peixeAmarelo.png in Resources */,
 				E85B387F224281C3006A4CF1 /* pesquisa03.png in Resources */,
+				E8EB9BD02244911100EC0353 /* oceanoLimpo.png in Resources */,
+				E8EB9BCC2244880600EC0353 /* lampada.png in Resources */,
 				E8EB9BC62243C88800EC0353 /* xcode1.png in Resources */,
 				5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */,
 				E85C574C2243282E008FB54E /* fundoDoMar.png in Resources */,
 				E85C575C224329F5008FB54E /* peixeLaranja.png in Resources */,
 				E85C576022433001008FB54E /* saco2.png in Resources */,
+				E8EB9BD32244916100EC0353 /* peixeAzulao.png in Resources */,
+				E8EB9BEB224498E000EC0353 /* cape.png in Resources */,
+				E8EB9BE82244967A00EC0353 /* peixe3.png in Resources */,
 				E8EB9BB22243AFAB00EC0353 /* peixeAzul.png in Resources */,
 				E85C577D22433FB6008FB54E /* eu3.jpeg in Resources */,
 				E85C575A224329F5008FB54E /* peixeAzulClaro.png in Resources */,
 				E85C577222433A14008FB54E /* prancheta.png in Resources */,
-				E85C576F224335A8008FB54E /* quarto.png in Resources */,
 				E8EB9BAB2243A00400EC0353 /* markX.png in Resources */,
 				E85C576222433001008FB54E /* saco1.png in Resources */,
+				E8EB9BDC224494BC00EC0353 /* peixe1.png in Resources */,
+				E8EB9BEE224498E800EC0353 /* girlPower.png in Resources */,
 				E8EB9BA822439BAD00EC0353 /* mark.png in Resources */,
+				E8EB9BE52244965F00EC0353 /* peixe2.png in Resources */,
 				E85C57652243314C008FB54E /* garrafa.png in Resources */,
+				E8EB9BC92244874600EC0353 /* quarto.png in Resources */,
+				E8EB9BDE224494BC00EC0353 /* peixe4.png in Resources */,
+				E8EB9BE2224494BC00EC0353 /* peixe2Sad.png in Resources */,
 				E8EB9BC02243C88800EC0353 /* xcode3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,8 +685,10 @@
 			files = (
 				E85C574D2243288F008FB54E /* PlaygroundPage1ViewController.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
+				E8EB9BEF2244992C00EC0353 /* PlaygroundPage7ViewController.swift in Sources */,
 				E85E2EE022428790000E4D77 /* PlaygroundPage3ViewController.swift in Sources */,
 				E85C5769224332E2008FB54E /* PlaygroundPage2ViewController.swift in Sources */,
+				E8EB9BCD22448D0D00EC0353 /* PlaygroundPage6ViewController.swift in Sources */,
 				E85C577322433A74008FB54E /* PlaygroundPage5ViewController.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
 				E85C57432242F5A9008FB54E /* PlaygroundPage4ViewController.swift in Sources */,
