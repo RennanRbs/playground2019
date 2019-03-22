@@ -13,7 +13,7 @@ func startXcode(){
  # The strategy
  ## One code line by time.
  
-Once information ha store, she decided to make an app📱  which informs and suggests the actions we must take to help save the oceans from pollution.
+Once information has store, she decided to make an app📱  which informs and suggests the actions we must take to help save the oceans from pollution.
  
  Content like where, how and why recycle are found in the application, as well as:
 
