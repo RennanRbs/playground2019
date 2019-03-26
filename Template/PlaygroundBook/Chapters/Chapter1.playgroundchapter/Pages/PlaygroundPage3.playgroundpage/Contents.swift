@@ -11,7 +11,7 @@ func makeSearch(){
  
  
  # The Act
- ## the surveys generate posibilities.
+ ## The surveys generate posibilities
  
  - Important:
  Here we are going to help our Developer, lets organize the information in a document to organize the ideas.
@@ -44,7 +44,7 @@ func makeSearch(){
 
 /*:
 
- # Link to next Page:
+
  [Next Page: One code line by time.](@next)
 */
  

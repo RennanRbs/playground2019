@@ -5,7 +5,7 @@
  
  
  # The beginning
- ## The great power we have.
+ ## The great power we have
  
  - Note:
  Hi, welcome to my playground. For best experience use in Landscape orientation.🤓
@@ -21,7 +21,7 @@
  
  This pollution of the oceans has been negatively affecting marine life, causing water warm up, destruction of marine animal habitats, acidification of the oceans and corals.
 
- # Link to next Page:
+ 
  [Next Page: The Power](@next)
  
  

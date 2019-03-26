@@ -13,9 +13,9 @@ func makeTest(){
  # The test
  ##  Application good practices
  
- Once the code has implemented most of the code, she recalled that the application needs to be well-built to serve all audiences for her message will be develired.
+ Once the code has been implemented, she recalled that the application needs to be well-built to serve all audiences for her message will be develired.
  
- She knows that design needs to be very attractive for the target audience, who are the regulars beach people, both locals and tourists. 🏖
+ She knows that design needs to be very attractive for the target audience, that is the regulars beach people, both locals and tourists. 🏖
  
  Interface elements need to be well-distributed and navigation paths need to be clear for their use.
  
@@ -25,10 +25,10 @@ func makeTest(){
  # Test check:
  * Good design.
  * Navigation responsive.
- * functionality
+ * functionality.
  
  
- # instrutions
+ # Instrutions
  1. Put the function makeTest() and Run My code to realize test.
  2. Tap on check list to realize.
  
@@ -43,7 +43,7 @@ func makeTest(){
 /*#-editable-code TAP TO ENTER CODE*//*#-end-editable-code*/
 
 /*:
- # Link to next Page:
+ 
  [Next Page: The new start](@next)
  
  

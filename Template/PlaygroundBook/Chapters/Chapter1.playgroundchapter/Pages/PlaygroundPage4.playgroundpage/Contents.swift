@@ -11,7 +11,7 @@ func startXcode(){
  
  
  # The strategy
- ## One code line by time.
+ ## One code line by time
  
 Once information has store, she decided to make an app📱  which informs and suggests the actions we must take to help save the oceans from pollution.
  
@@ -25,7 +25,7 @@ Once information has store, she decided to make an app📱  which informs and su
  
  It also lists several products that we can use on a dayle bases which one can substitute for others that do not destructive aquatic life, such as the replacement of plastic straws with biodegradable straws. ♻️
  
- # instrutions
+ # Instrutions
  1. Put the function startXcode() and Run My code to code in you Mac.
  2. Tap on Mac to Code.
  */
@@ -39,8 +39,8 @@ Once information has store, she decided to make an app📱  which informs and su
 
 
 /*:
- # Link to nest Page:
- [Next Page: Boas praticas de um aplicativo](@next)
+ 
+ [Next Page: The test](@next)
  
  
 */

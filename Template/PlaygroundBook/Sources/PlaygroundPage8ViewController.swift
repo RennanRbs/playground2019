@@ -9,14 +9,15 @@ import UIKit
 
 public class PlaygroundPage8ViewController: UIViewController {
     lazy var eimagemEu: UIImageView = {
-        let imageName = "eu3.jpeg"
+        let imageName = "eu3"
         let image = UIImage(named: imageName)
         let imageT = UIImageView(image: image!)
         imageT.layer.cornerRadius = 200
         imageT.layer.masksToBounds = true
         imageT.translatesAutoresizingMaskIntoConstraints = false
-        imageT.layer.borderWidth = 10
-        
+        imageT.layer.borderWidth = 5
+        let myColor = UIColor.white
+        imageT.layer.borderColor = myColor.cgColor
         return imageT
     }()
     override public func viewDidLoad() {

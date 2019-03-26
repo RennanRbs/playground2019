@@ -22,7 +22,6 @@ public func instantiateLiveView() -> PlaygroundLiveViewable {
         fatalError("LiveView.storyboard's initial scene is not a LiveViewController; please either update the storyboard or this function")
     }
 
-//    return liveViewController
-    return PlaygroundPage6ViewController()
+    return liveViewController
 }
 
